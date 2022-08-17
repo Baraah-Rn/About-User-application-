@@ -14,3 +14,5 @@ app.use('/users', usersRoutes);
 app.listen(PORT, ()=>{
     console.log(`The app is listing to port: http://localhost:${PORT}`);
 });
+
+export default app
